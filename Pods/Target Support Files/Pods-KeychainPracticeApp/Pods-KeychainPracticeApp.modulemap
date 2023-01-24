@@ -1,0 +1,6 @@
+framework module Pods_KeychainPracticeApp {
+  umbrella header "Pods-KeychainPracticeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

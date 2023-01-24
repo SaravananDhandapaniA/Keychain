@@ -13,9 +13,14 @@
 		5E44E262297E4FF20094641F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E44E260297E4FF20094641F /* Main.storyboard */; };
 		5E44E264297E4FFC0094641F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E44E263297E4FFC0094641F /* Assets.xcassets */; };
 		5E44E267297E4FFC0094641F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E44E265297E4FFC0094641F /* LaunchScreen.storyboard */; };
+		5EA4E979297E60C8007347FF /* SriSaravanan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4E978297E60C8007347FF /* SriSaravanan.pdf */; };
+		5EF701BA297EB4A900402C39 /* HomeListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF701B9297EB4A900402C39 /* HomeListTableCell.swift */; };
+		FD5F148B6CF9997A68818053 /* Pods_KeychainPracticeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF77A8F798682C5A692ADEF /* Pods_KeychainPracticeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BF6C07A6E839F0E6798031C /* Pods-KeychainPracticeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainPracticeApp.release.xcconfig"; path = "Target Support Files/Pods-KeychainPracticeApp/Pods-KeychainPracticeApp.release.xcconfig"; sourceTree = "<group>"; };
+		3DF77A8F798682C5A692ADEF /* Pods_KeychainPracticeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainPracticeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E44E257297E4FF20094641F /* KeychainPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E44E25A297E4FF20094641F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E44E25C297E4FF20094641F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		5E44E263297E4FFC0094641F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E44E266297E4FFC0094641F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E44E268297E4FFC0094641F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA4E978297E60C8007347FF /* SriSaravanan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SriSaravanan.pdf; sourceTree = "<group>"; };
+		5EF701B9297EB4A900402C39 /* HomeListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListTableCell.swift; sourceTree = "<group>"; };
+		C708A0679C2E84A3B7BDBE68 /* Pods-KeychainPracticeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainPracticeApp.debug.xcconfig"; path = "Target Support Files/Pods-KeychainPracticeApp/Pods-KeychainPracticeApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5F148B6CF9997A68818053 /* Pods_KeychainPracticeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F59169CD1D0DC4467D6B0A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C708A0679C2E84A3B7BDBE68 /* Pods-KeychainPracticeApp.debug.xcconfig */,
+				3BF6C07A6E839F0E6798031C /* Pods-KeychainPracticeApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5E44E24E297E4FF20094641F = {
 			isa = PBXGroup;
 			children = (
 				5E44E259297E4FF20094641F /* KeychainPracticeApp */,
 				5E44E258297E4FF20094641F /* Products */,
+				4F59169CD1D0DC4467D6B0A3 /* Pods */,
+				FEE3A4447B52D6274D6E8624 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +84,18 @@
 				5E44E263297E4FFC0094641F /* Assets.xcassets */,
 				5E44E265297E4FFC0094641F /* LaunchScreen.storyboard */,
 				5E44E268297E4FFC0094641F /* Info.plist */,
+				5EA4E978297E60C8007347FF /* SriSaravanan.pdf */,
+				5EF701B9297EB4A900402C39 /* HomeListTableCell.swift */,
 			);
 			path = KeychainPracticeApp;
+			sourceTree = "<group>";
+		};
+		FEE3A4447B52D6274D6E8624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DF77A8F798682C5A692ADEF /* Pods_KeychainPracticeApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E44E26B297E4FFC0094641F /* Build configuration list for PBXNativeTarget "KeychainPracticeApp" */;
 			buildPhases = (
+				65677D0FAAC14F3E9A4F7116 /* [CP] Check Pods Manifest.lock */,
 				5E44E253297E4FF20094641F /* Sources */,
 				5E44E254297E4FF20094641F /* Frameworks */,
 				5E44E255297E4FF20094641F /* Resources */,
+				1981B9A9540A6F8A5DE08A38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +159,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E44E267297E4FFC0094641F /* LaunchScreen.storyboard in Resources */,
+				5EA4E979297E60C8007347FF /* SriSaravanan.pdf in Resources */,
 				5E44E264297E4FFC0094641F /* Assets.xcassets in Resources */,
 				5E44E262297E4FF20094641F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1981B9A9540A6F8A5DE08A38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychainPracticeApp/Pods-KeychainPracticeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychainPracticeApp/Pods-KeychainPracticeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeychainPracticeApp/Pods-KeychainPracticeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65677D0FAAC14F3E9A4F7116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeychainPracticeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E44E253297E4FF20094641F /* Sources */ = {
@@ -141,6 +217,7 @@
 				5E44E25F297E4FF20094641F /* ViewController.swift in Sources */,
 				5E44E25B297E4FF20094641F /* AppDelegate.swift in Sources */,
 				5E44E25D297E4FF20094641F /* SceneDelegate.swift in Sources */,
+				5EF701BA297EB4A900402C39 /* HomeListTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +359,13 @@
 		};
 		5E44E26C297E4FFC0094641F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C708A0679C2E84A3B7BDBE68 /* Pods-KeychainPracticeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2KDCPJU8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeychainPracticeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,11 +388,13 @@
 		};
 		5E44E26D297E4FFC0094641F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF6C07A6E839F0E6798031C /* Pods-KeychainPracticeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2KDCPJU8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeychainPracticeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
